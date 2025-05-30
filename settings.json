@@ -1,0 +1,13 @@
+{
+  "version": "25.03.12",
+  "count": 1,
+  "wait_time": 1000,
+  "target_folder": "C:/example/path",
+  "source_folders": [
+    {
+      "folder": "C:/source/folder",
+      "pattern": "data*.bin",
+      "base_name": "data"
+    }
+  ]
+}
