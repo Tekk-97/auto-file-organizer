@@ -23,7 +23,7 @@ file_mover 폴더는 반드시 __init__.py가 있어야 하며, 그 상위 폴�
 
 ## 📁 폴더 구조 예시
 ``` 
-Autofile-organizer/
+auto-file-organizer/
 ├── file_mover/            # 주요 소스 디렉토리
 │   ├── __main__.py       # 실행 진입점
 │   ├── gui.py            # GUI 구성 및 이벤트 바인딩
