@@ -45,10 +45,12 @@ Autofile-organizer/
 ```
 ## 🧠 코드 설명 (모듈별 함수 포함)
 ```
+gui.py
 - start_gui(): GUI 창을 초기화하고 위젯을 배치, 각 이벤트 핸들러와 모듈 함수 연결.
 - choose_target_folder(): 타겟 폴더 선택 다이얼로그 띄움.
 - update_count(change, ui_refs): 카운트 값을 수동으로 증가/감소.
 - update_wait_time(ui_refs): 대기 시간(seconds)을 입력받아 내부 상태로 반영.
+
 
 file_processor.py
 - process_files(ui_refs): 소스 폴더 목록을 순회하여 조건을 만족하는 파일을 수집하고 처리.
